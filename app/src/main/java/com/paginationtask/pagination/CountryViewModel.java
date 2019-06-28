@@ -1,4 +1,4 @@
-package com.paginationtask.utils;
+package com.paginationtask.pagination;
 
 
 import androidx.lifecycle.LiveData;

@@ -1,4 +1,4 @@
-package com.paginationtask.utils;
+package com.paginationtask.pagination;
 
 
 import androidx.annotation.NonNull;
@@ -7,6 +7,7 @@ import androidx.paging.DataSource;
 import androidx.paging.PageKeyedDataSource;
 
 import com.paginationtask.api_module.CountryAPIResponse;
+import com.paginationtask.pagination.CountryDataSource;
 
 public class DataSourceCountryFactory extends DataSource.Factory {
     private MutableLiveData<PageKeyedDataSource<Integer, CountryAPIResponse.CountryList>> countryLiveDataSource = new
